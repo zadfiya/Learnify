@@ -1,0 +1,32 @@
+{
+  "name": "learnify",
+  "version": "1.0.0",
+  "description": "E-Learning System Developed by N A R E N",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zadfiya/Learnify.git"
+  },
+  "keywords": [
+    "elearning",
+    "System",
+    "E-Learning",
+    "Brainscope",
+    "Mindwave",
+    "Education",
+    "Assesment",
+    "Test",
+    "NodeJS",
+    "ReactJS",
+    "Learnify"
+  ],
+  "author": "N A R E N | Z A D A F I Y A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zadfiya/Learnify/issues"
+  },
+  "homepage": "https://github.com/zadfiya/Learnify#readme"
+}
