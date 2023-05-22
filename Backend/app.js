@@ -7,12 +7,17 @@ const corsOptions = {
 
 require('dotenv').config();
 
+// Database
+require('./configs/mongoose.config');
 
 
 // App
 const express = require('express');
 const app = express();
 app.use(cors(corsOptions));
+
+// Configs
+require('./configs/cors.config')(app);
 
 app.listen(process.env.PORT,()=>{
     console.log("Learnify server Successfully running on PORT "+ process.env.PORT);

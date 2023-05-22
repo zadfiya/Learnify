@@ -4,7 +4,7 @@
   "description": "E-Learning System Developed by N A R E N",
   "main": "app.js",
   "scripts": {
-    "start":"nodemon app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,6 +34,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "mongoose": "^7.2.0",
     "nodemon": "^2.0.22"
   }
 }
